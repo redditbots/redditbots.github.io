@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Reddit Bots by redditbots</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>Reddit Bots</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/redditbots">View the Project on GitHub <small>redditbots</small></a></p>
+        <ul>
+          <li class="single"><a href="https://github.com/redditbots/redditbots.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="what-is-this" class="anchor" href="#what-is-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is this?</h2>
+
+<p>RedditBots.com is an open domain for bots that require third-party authentication and/or want a separate web interface (eg. instead of parsing messages/comments).</p>
+
+<p>By default, there is a wildcard domain (<code>*.redditbots.com</code>) set up to point to Heroku apps, so you can use it for any bots you are running on Heroku, <strong>without having to do anything else</strong>, by running <code>heroku domains:add example.redditbots.com</code>.</p>
+
+<p>However, this will be a <em>direct link</em> to Heroku (without CloudFlare's performance or HTTPS support), and not all bots are hosted on Heroku. As such, if you have a bot running somewhere else, or if you want full CloudFlare support, you can request a subdomain to point to a specific server / CNAME in the thread at <a href="https://www.reddit.com/r/redditbots/comments/332mi7/redditbotscom_subdomain_request_thread/">https://www.reddit.com/r/redditbots/comments/332mi7/redditbotscom_subdomain_request_thread/</a>, and /u/StuartPBentley can direct that subdomain of redditbots.com to your bot.</p>
+
+<p>As an example, if you are hosting a bot on a local machine from your house, you can set up a <a href="http://en.wikipedia.org/wiki/Dynamic_DNS">dynamic DNS</a> record for your IP address, then use that as a CNAME for your bot's subdomain.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
