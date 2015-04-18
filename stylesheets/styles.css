@@ -230,6 +230,12 @@ blockquote {
 
 img {
   max-width: 100%;
+  display: inline-block;
+}
+
+h1 img {
+  height: 2.5em;
+  vertical-align: bottom;
 }
 
 code, pre {
